@@ -20,7 +20,7 @@ export default function BlogPage() {
     <main>
       <header className="site-header subpage-header">
         <a className="brand" href="/" aria-label="Casey's Property Group home"><span className="brand-mark">CPG</span><span className="brand-name">Casey’s Property Group</span></a>
-        <nav aria-label="Primary navigation"><a href="/#paths">Buy</a><a href="/#seller-options">Sell</a><a href="/#divisions">Invest</a><a href="/#about">About</a><a href="/team">Team</a><a className="nav-current" href="/blog">Blog</a></nav>
+        <nav aria-label="Primary navigation"><a href="/#paths">Buy</a><a href="/#seller-options">Sell</a><a href="/#divisions">Invest</a><a href="/#about">About</a><a href="/team">Team</a><a href="/marketing">Marketing</a><a className="nav-current" href="/blog">Blog</a></nav>
         <a className="button button-dark header-cta" href="/#start">Get started</a>
       </header>
 
@@ -50,7 +50,7 @@ export default function BlogPage() {
 
       <footer>
         <div className="footer-brand"><span className="brand-mark">CPG</span><p>Casey’s Property Group<br /><small>Stamford, Connecticut · Serving CT &amp; NY</small></p></div>
-        <div className="footer-links"><a href="/">Home</a><a href="/#seller-options">Sell</a><a href="/#divisions">Invest</a><a href="/team">Team</a><a href="/blog">Blog</a></div>
+        <div className="footer-links"><a href="/">Home</a><a href="/#seller-options">Sell</a><a href="/#divisions">Invest</a><a href="/team">Team</a><a href="/marketing">Marketing</a><a href="/blog">Blog</a></div>
         <div className="footer-social-wrap"><div className="social-links" aria-label="Social media"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Casey’s Property Group on Instagram"><FaInstagram aria-hidden="true" /></a><a href="https://www.tiktok.com/" target="_blank" rel="noreferrer" aria-label="Casey’s Property Group on TikTok"><FaTiktok aria-hidden="true" /></a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Casey’s Property Group on Facebook"><FaFacebookF aria-hidden="true" /></a></div><p className="footer-note">Your property.<br />Your options.</p></div>
       </footer>
     </main>
