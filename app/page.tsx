@@ -1,3 +1,5 @@
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+
 const paths = [
   { number: "01", title: "Sell", copy: "Compare market, as-is, direct-sale and improvement options.", href: "#seller-options" },
   { number: "02", title: "Buy", copy: "Find a home, investment property or overlooked opportunity.", href: "#start" },
@@ -218,7 +220,14 @@ export default function Home() {
         <div className="footer-links">
           <a href="#paths">Buy</a><a href="#seller-options">Sell</a><a href="#divisions">Invest</a><a href="#start">Appraise</a><a href="#about">About</a>
         </div>
-        <p className="footer-note">Casey’s Property Group<br />Your property. Your options.</p>
+        <div className="footer-social-wrap">
+          <div className="social-links" aria-label="Social media">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Casey’s Property Group on Instagram"><FaInstagram aria-hidden="true" /></a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer" aria-label="Casey’s Property Group on TikTok"><FaTiktok aria-hidden="true" /></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Casey’s Property Group on Facebook"><FaFacebookF aria-hidden="true" /></a>
+          </div>
+          <p className="footer-note">Casey’s Property Group<br />Your property. Your options.</p>
+        </div>
       </footer>
     </main>
   );
