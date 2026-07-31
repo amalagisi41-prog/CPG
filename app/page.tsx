@@ -66,6 +66,8 @@ export default function Home() {
           <a href="#divisions">Improve</a>
           <a href="#divisions">Build</a>
           <a href="#about">About</a>
+          <a href="/team">Team</a>
+          <a href="/blog">Blog</a>
         </nav>
         <a className="button button-dark header-cta" href="#start">Get started</a>
       </header>
@@ -218,7 +220,7 @@ export default function Home() {
           <p>Casey’s Property Group<br /><small>Stamford, Connecticut · Serving CT &amp; NY</small></p>
         </div>
         <div className="footer-links">
-          <a href="#paths">Buy</a><a href="#seller-options">Sell</a><a href="#divisions">Invest</a><a href="#start">Appraise</a><a href="#about">About</a>
+          <a href="#paths">Buy</a><a href="#seller-options">Sell</a><a href="#divisions">Invest</a><a href="#start">Appraise</a><a href="#about">About</a><a href="/team">Team</a><a href="/blog">Blog</a>
         </div>
         <div className="footer-social-wrap">
           <div className="social-links" aria-label="Social media">
