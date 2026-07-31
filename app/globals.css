@@ -47,7 +47,7 @@ nav a:hover { border-color: var(--copper); color: var(--copper); }
 .button-copper:hover { background: var(--paper); color: var(--forest); border-color: var(--paper); }
 
 .hero { min-height: 710px; position: relative; overflow: hidden; display: flex; align-items: center; }
-.hero-image { position: absolute; inset: 0; background-image:url("/cpg-hero.png"); background-repeat:no-repeat; background-size:118% auto; background-position:right center; filter:brightness(1.12) contrast(.9) saturate(.88); }
+.hero-image { position: absolute; inset: 0; background-image:url("/cpg-hero.png"); background-repeat:no-repeat; background-size:118% auto; background-position:right center; filter:brightness(1.2) contrast(.92) saturate(1.1); }
 .hero::after {
   content: none;
 }
